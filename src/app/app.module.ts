@@ -9,7 +9,6 @@ import { Grid3Component } from './components/grid3/grid3.component';
 import { HeadNavComponent } from './components/head-nav/head-nav.component';
 import { Grid4Component } from './components/grid4/grid4.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NewGridComponent } from './newgrid/newgrid.component';
 import { IgxGridModule } from 'igniteui-angular';
 
 @NgModule({
@@ -20,7 +19,6 @@ import { IgxGridModule } from 'igniteui-angular';
     Grid3Component,
     HeadNavComponent,
     Grid4Component,
-    NewGridComponent
   ],
   imports: [
     BrowserModule,
