@@ -1,0 +1,25 @@
+<div class="header">
+    App Feature: Filtering
+</div>
+<igx-grid [data]="EmployeeData" [autoGenerate]="false" [allowFiltering]="true" filterMode="excelStyleFilter"
+    width="100%" height="500px">
+
+    <igx-column header="EmployeeID" field="EmployeeID">
+    </igx-column>
+
+    <igx-column header="FirstName" field="FirstName">
+    </igx-column>
+
+    <igx-column header="LastName" field="LastName">
+    </igx-column>
+
+    <igx-column header="Country" field="Country">
+    </igx-column>
+
+    <igx-column header="Age" field="Age" dataType="number">
+    </igx-column>
+
+    <igx-column header="IsActive" field="IsActive">
+    </igx-column>
+
+</igx-grid>

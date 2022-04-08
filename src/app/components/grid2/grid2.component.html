@@ -1,0 +1,25 @@
+
+<div class="header">
+    App Feature: Sorting
+</div>
+<igx-grid [data]="EmployeeData" [autoGenerate]="false" width="100%" height="500px">
+
+    <igx-column header="EmployeeID" [sortable]="true" field="EmployeeID">
+    </igx-column>
+
+    <igx-column header="FirstName" [sortable]="true" field="FirstName">
+    </igx-column>
+
+    <igx-column header="LastName" [sortable]="true" field="LastName">
+    </igx-column>
+
+    <igx-column header="Country" [sortable]="true" field="Country">
+    </igx-column>
+
+    <igx-column header="Age" field="Age" [sortable]="true" dataType="number">
+    </igx-column>
+
+    <igx-column header="IsActive" [sortable]="true" field="IsActive">
+    </igx-column>
+
+</igx-grid>
