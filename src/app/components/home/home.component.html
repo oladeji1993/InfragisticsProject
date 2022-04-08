@@ -1,25 +1,27 @@
-<div class="header">
-    App Feature: Pagination
+<div data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+    <div class="header">
+        App Feature: Pagination
+    </div>
+    <igx-grid [data]="EmployeeData" [autoGenerate]="false" width="100%" height="500px">
+        <igx-paginator></igx-paginator>
+    
+        <igx-column header="EmployeeID" field="EmployeeID">
+        </igx-column>
+    
+        <igx-column header="FirstName" field="FirstName">
+        </igx-column>
+    
+        <igx-column header="LastName" field="LastName">
+        </igx-column>
+    
+        <igx-column header="Country" field="Country">
+        </igx-column>
+    
+        <igx-column header="Age" field="Age" dataType="number">
+        </igx-column>
+    
+        <igx-column header="IsActive" field="IsActive">
+        </igx-column>
+    
+    </igx-grid>
 </div>
-<igx-grid [data]="EmployeeData" [autoGenerate]="false" width="100%" height="500px">
-    <igx-paginator></igx-paginator>
-
-    <igx-column header="EmployeeID" field="EmployeeID">
-    </igx-column>
-
-    <igx-column header="FirstName" field="FirstName">
-    </igx-column>
-
-    <igx-column header="LastName" field="LastName">
-    </igx-column>
-
-    <igx-column header="Country" field="Country">
-    </igx-column>
-
-    <igx-column header="Age" field="Age" dataType="number">
-    </igx-column>
-
-    <igx-column header="IsActive" field="IsActive">
-    </igx-column>
-
-</igx-grid>

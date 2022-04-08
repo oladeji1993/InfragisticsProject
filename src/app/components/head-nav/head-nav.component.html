@@ -1,6 +1,10 @@
 <nav id="nav-bg" class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+        <div class="logo">
+            <a class="nav-link active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" aria-current="page" routerLink="/">
+                primeTech
+            </a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -8,24 +12,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li id="logo" class="nav-item">
-                    <a class="nav-link active" aria-current="page" routerLink="/">
+                    <!-- <a class="nav-link active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" aria-current="page" routerLink="/">
                         primeTech
-                    </a>
+                    </a> -->
                 </li>
             </ul>
             <form class="d-flex">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link"  routerLink="/grid1" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Grid1</a>
+                        <a class="nav-link"  routerLink="/grid1" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Grid1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/grid2" routerLinkActive="active">Grid2</a>
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="/grid2" routerLinkActive="active">Grid2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/grid3" routerLinkActive="active">Grid3</a>
+                        <a class="nav-link" routerLink="/grid3" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLinkActive="active">Grid3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/grid4"  routerLinkActive="active">Grid4</a>
+                        <a class="nav-link" routerLink="/grid4" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"  routerLinkActive="active">Grid4</a>
                     </li>
                 </ul>
             </form>
